@@ -2,13 +2,13 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-sphinx==4.2.0
-sphinx-rtd-theme==1.0.0
-graphviz>=0.8
-numpy>=1.7
-observations>=0.1.4
-opt_einsum>=2.3.2
-pyro-api>=0.1.1
-tqdm>=4.36
-funsor[torch]
-setuptools
+sphinx==4.2.0 # 8.0.2
+sphinx-rtd-theme==1.0.0  # 2.0.0
+graphviz>=0.8  # 0.20.3
+numpy>=1.7  # 2.1.1
+observations>=0.1.4  # 0.1.4 (unmaintained, replaced by TensorFlow Datasets)
+opt_einsum>=2.3.2  # 3.4.0
+pyro-api>=0.1.1  # 0.1.2  (API last updated 2 years ago)
+tqdm>=4.36  # 4.66.5
+funsor[torch]  # 0.4.5 (funsor last updated last year)
+setuptools  # 75.1.0
